@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\images\\trashcan.png",
+      "PackagePath": "staticwebassets\\images\\trashcan.png"
+    },
+    {
       "Id": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

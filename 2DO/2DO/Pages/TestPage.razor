@@ -1,0 +1,102 @@
+﻿@page "/"
+
+@using _2DO.Data
+@using System.Diagnostics
+
+<h3>TestPage</h3>
+
+@if (goalList == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="goalContainer">
+    @foreach (Goal goal in goalList)
+    {
+        <input type="checkbox" checked=@goal.complete id=@goal.name @onchange="eventArgs => { CheckboxClicked(goal, eventArgs.Value); }">
+        <lable for=@goal.name>@goal.name</lable>
+        <img id="img-trashcan" src="images/trashcan.png" @onclick="() => RemoveSpecificGoal(goal)">
+        <br />
+    }
+    </div>
+}
+<br />
+<button @onclick= "() => PrintGoalListNames()">Print goalList names</button> <br />
+<button @onclick="() => AddStaticGoal()">Add new static goal</button> <br />
+<button @onclick="() => RemoveCompletedGoals()">Remove completed goals</button> <br />
+<button @onclick="() => PrintUncompletedGoals()">Print incomplete goals</button> <br />
+<br />
+<button @onclick="() => CreateNewGoal()">Create new goal</button> <br />
+
+
+@code {
+    public List<Goal> goalList = new List<Goal>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        goalList.Add(new Goal("goal1"));
+        goalList.Add(new Goal("goal2"));
+        goalList.Add(new Goal("goal3"));
+
+        foreach (Goal goal in goalList)
+        {
+            Debug.WriteLine("added the goal: " + goal.name);
+        }
+    }
+
+    public void CheckboxClicked(Goal goal, object checkboxState)
+    {
+        //Add functinality
+        if ((bool)checkboxState == true) {
+            Debug.WriteLine($"{goal.name} was marked as completed!");
+            goal.complete = true;
+        } else {
+            Debug.WriteLine($"{goal.name} was marked as uncompleted!");
+            goal.complete = false;
+        }
+    }
+
+    public async Task RemoveSpecificGoal(Goal goal) {
+        bool res = await App.Current.MainPage.DisplayAlert("Delete goal", "Are you sure you want to delete " + goal.name, "Yes", "No");
+        if(res) {
+            goalList.Remove(goal);
+        }
+    }
+
+    public async Task CreateNewGoal() {
+        string res = await App.Current.MainPage.DisplayPromptAsync("Name your goal!", "Enter the goal you want to make!");
+        goalList.Add(new Goal(res));
+    }
+
+    //Test functions
+    public void PrintGoalListNames() {
+        Debug.WriteLine("Goals in goalList:");
+        foreach (Goal goal in goalList) {
+            Debug.WriteLine(goal.name);
+        }
+    }
+
+    public void AddStaticGoal() {
+        Debug.WriteLine("Adding static goal...");
+        goalList.Add(new Goal("staticGoal"));
+    }
+
+    public void RemoveCompletedGoals() {
+        foreach (Goal goal in goalList) {
+            if(goal.complete) {
+                Debug.WriteLine(goal.name);
+            }
+        }
+        goalList.RemoveAll(x => x.complete == true);
+    }
+
+    public void PrintUncompletedGoals() {
+        foreach (Goal goal in goalList) {
+            if(!goal.complete) {
+                Debug.WriteLine(goal.name);
+            }
+        }
+    }
+
+}

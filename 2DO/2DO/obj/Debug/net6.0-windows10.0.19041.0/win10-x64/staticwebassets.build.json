@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bQmLNh4rlHAl1HhNHZbhfrMSxXkbrybFDhECh5Tgf3c=",
+  "Hash": "nfnyLWtbeDQs+VCu8s0NE4hxGjeVvi68UyYjgwhpo7Y=",
   "Source": "2DO",
   "BasePath": "/",
   "Mode": "Root",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\images\\trashcan.png",
+      "SourceId": "2DO",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "images/trashcan.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\trashcan.png"
     },
     {
       "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\index.html",
