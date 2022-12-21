@@ -1,0 +1,36 @@
+﻿@page "/"
+
+@using _2DO.Data
+@using System.Diagnostics
+
+<h2>Lists</h2>
+
+@if (taskListList == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    foreach(TaskList taskList in taskListList) {
+        <a href="/Tasks/@taskList.name">
+            <h4>@taskList.name</h4>
+        </a>
+    }
+}
+
+@code {
+    public TaskList testList1 = new TaskList("TestList1");
+    public TaskList testList2 = new TaskList("TestList2");
+    public TaskList testList3 = new TaskList("TestList3");
+
+    public List<TaskList> taskListList = new List<TaskList>();
+
+    protected override async Task OnInitializedAsync() {
+        taskListList.Add(testList1);
+        taskListList.Add(testList2);
+        taskListList.Add(testList3);
+
+        Debug.WriteLine("YEETS!: " + Environment.GetEnvironmentVariable("TestEnvVar"));
+    }
+
+}

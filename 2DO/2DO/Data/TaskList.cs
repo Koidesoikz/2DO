@@ -2,7 +2,7 @@
 
 namespace _2DO.Data;
 
-public class List
+public class TaskList
 {
     public List<Goal> goals;
     public List<Prefab> prefab;
@@ -10,4 +10,9 @@ public class List
     public string name;
     public DateTime startDate;
     public DateTime endDate;
+
+    public TaskList(string name) {
+        this.name = name;
+        this.complete = false;
+    }
 }

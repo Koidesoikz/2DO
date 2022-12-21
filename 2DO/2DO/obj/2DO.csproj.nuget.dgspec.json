@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\2DO.csproj": {}
+    "C:\\RandomProjects\\2DO\\2DO\\2DO\\2DO.csproj": {}
   },
   "projects": {
-    "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\2DO.csproj": {
+    "C:\\RandomProjects\\2DO\\2DO\\2DO\\2DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\2DO.csproj",
+        "projectUniqueName": "C:\\RandomProjects\\2DO\\2DO\\2DO\\2DO.csproj",
         "projectName": "2DO",
-        "projectPath": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\2DO.csproj",
+        "projectPath": "C:\\RandomProjects\\2DO\\2DO\\2DO\\2DO.csproj",
         "packagesPath": "C:\\Users\\Emil\\.nuget\\packages\\",
-        "outputPath": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\obj\\",
+        "outputPath": "C:\\RandomProjects\\2DO\\2DO\\2DO\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
