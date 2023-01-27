@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wcZolC1Ku/06BCj7DbUYDH0VYp8eRnE82JBF1n6j/ds=",
+  "Hash": "UykyfS/D1iA/fmR3soo0gPTEaymFpW9VSKhI9mSLnK8=",
   "Source": "2DO",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "2DO\\wwwroot",
       "Source": "2DO",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\2DO.styles.css",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\2DO.styles.css",
       "SourceId": "2DO",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "2DO.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\RandomProjects\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\2DO.styles.css"
+      "OriginalItemSpec": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\2DO.styles.css"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\2DO.bundle.scp.css",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\2DO.bundle.scp.css",
       "SourceId": "2DO",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "2DO.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\RandomProjects\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\2DO.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\2DO.bundle.scp.css"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\css\\app.css",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\app.css",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\favicon.ico",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\images\\trashcan.png",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\images\\trashcan.png",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "images/trashcan.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\trashcan.png"
     },
     {
-      "Identity": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\index.html",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\index.html",
       "SourceId": "2DO",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\RandomProjects\\2DO\\2DO\\2DO\\wwwroot\\",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index.html",
       "AssetKind": "All",

@@ -9,105 +9,105 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _2DO
 build_property.RootNamespace = _2DO
-build_property.ProjectDir = C:\RandomProjects\2DO\2DO\2DO\
+build_property.ProjectDir = D:\Programmering\Github\2DO\2DO\2DO\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\RandomProjects\2DO\2DO\2DO
+build_property.MSBuildProjectDirectory = D:\Programmering\Github\2DO\2DO\2DO
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/RandomProjects/2DO/2DO/2DO/App.xaml]
+[D:/Programmering/Github/2DO/2DO/2DO/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = _2DO.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/RandomProjects/2DO/2DO/2DO/MainPage.xaml]
+[D:/Programmering/Github/2DO/2DO/2DO/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = _2DO.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/RandomProjects/2DO/2DO/2DO/Main.razor]
+[D:/Programmering/Github/2DO/2DO/2DO/Main.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = TWFpbi5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/RandomProjects/2DO/2DO/2DO/Pages/Counter.razor]
+[D:/Programmering/Github/2DO/2DO/2DO/Pages/Counter.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/RandomProjects/2DO/2DO/2DO/Pages/FetchData.razor]
+[D:/Programmering/Github/2DO/2DO/2DO/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/RandomProjects/2DO/2DO/2DO/Pages/Index.razor]
+[D:/Programmering/Github/2DO/2DO/2DO/Pages/Index.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/RandomProjects/2DO/2DO/2DO/Pages/Lists.razor]
+[D:/Programmering/Github/2DO/2DO/2DO/Pages/Lists.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdHMucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/RandomProjects/2DO/2DO/2DO/Pages/Tasks.razor]
+[D:/Programmering/Github/2DO/2DO/2DO/Pages/Tasks.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFza3MucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/RandomProjects/2DO/2DO/2DO/Pages/TestPage.razor]
+[D:/Programmering/Github/2DO/2DO/2DO/Pages/TestPage.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/RandomProjects/2DO/2DO/2DO/Shared/DisplayGoal.razor]
+[D:/Programmering/Github/2DO/2DO/2DO/Shared/DisplayGoal.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERpc3BsYXlHb2FsLnJhem9y
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/RandomProjects/2DO/2DO/2DO/Shared/SurveyPrompt.razor]
+[D:/Programmering/Github/2DO/2DO/2DO/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/RandomProjects/2DO/2DO/2DO/_Imports.razor]
+[D:/Programmering/Github/2DO/2DO/2DO/_Imports.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/RandomProjects/2DO/2DO/2DO/Shared/MainLayout.razor]
+[D:/Programmering/Github/2DO/2DO/2DO/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = b-gbx084z2hh
 
-[C:/RandomProjects/2DO/2DO/2DO/Shared/NavMenu.razor]
+[D:/Programmering/Github/2DO/2DO/2DO/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
