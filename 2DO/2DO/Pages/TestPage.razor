@@ -28,10 +28,12 @@ else
 <button @onclick="() => PrintUncompletedGoals()">Print incomplete goals</button> <br />
 <br />
 <button @onclick="() => CreateNewGoal()">Create new goal</button> <br />
-
+<br />
+<button @onclick="() => DecBase64Test()">Decode base64</button> <br />
 
 @code {
     public List<Goal> goalList = new List<Goal>();
+    public GoogleSheetsDB sheets = new GoogleSheetsDB();
 
     protected override async Task OnInitializedAsync()
     {
@@ -97,6 +99,16 @@ else
                 Debug.WriteLine(goal.name);
             }
         }
+    }
+
+    public async Task DecBase64Test() {
+        string path = @"APIStuff.txt";
+        List<string> cred = new List<string>();
+
+        cred = await sheets.GetCredentials(path);
+
+        Debug.WriteLine("User: " + sheets.DecodeCred(cred[0]));
+        Debug.WriteLine("Pass: " + sheets.DecodeCred(cred[1]));
     }
 
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bG3wZisE+/XfDOqFFeRGIP+FuohT2Uirr1Ufw5vljfk=",
+  "Hash": "BVr8uEKCvAoqi6Qh8v/O2OKSHqnm1lNTHbOnbW8e3Q8=",
   "Source": "2DO",
   "BasePath": "/",
   "Mode": "Root",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-android\\scopedcss\\projectbundle\\2DO.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\APIStuff.txt",
+      "SourceId": "2DO",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "APIStuff.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\APIStuff.txt"
     },
     {
       "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\app.css",
