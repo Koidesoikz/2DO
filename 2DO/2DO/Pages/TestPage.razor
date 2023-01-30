@@ -29,11 +29,11 @@ else
 <br />
 <button @onclick="() => CreateNewGoal()">Create new goal</button> <br />
 <br />
-<button @onclick="() => DecBase64Test()">Decode base64</button> <br />
+<button @onclick="() => TestMongoDBConnection()">TestMongoDBConnection</button>
+<br />
 
 @code {
     public List<Goal> goalList = new List<Goal>();
-    public GoogleSheetsDB sheets = new GoogleSheetsDB();
 
     protected override async Task OnInitializedAsync()
     {
@@ -101,14 +101,12 @@ else
         }
     }
 
-    public async Task DecBase64Test() {
-        string path = @"APIStuff.txt";
-        List<string> cred = new List<string>();
+    public async Task TestMongoDBConnection() {
+        MongoDB db = new MongoDB();
 
-        cred = await sheets.GetCredentials(path);
+        await db.ConnectToDB();
 
-        Debug.WriteLine("User: " + sheets.DecodeCred(cred[0]));
-        Debug.WriteLine("Pass: " + sheets.DecodeCred(cred[1]));
+        db.Test();
     }
 
 }

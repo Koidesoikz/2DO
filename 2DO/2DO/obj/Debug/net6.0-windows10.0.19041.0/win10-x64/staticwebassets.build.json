@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5yT+JyPNhpHy0GTSVfjLwlUVQu35EwZHcBIEgGfhtac=",
+  "Hash": "IpbK0kd17QwTMPC0M60+LFOmGQ4REgh23KRQZGAwuv0=",
   "Source": "2DO",
   "BasePath": "/",
   "Mode": "Root",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\obj\\Debug\\net6.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\2DO.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\APIStuff.txt",
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\cred.txt",
       "SourceId": "2DO",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "APIStuff.txt",
+      "RelativePath": "cred.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\APIStuff.txt"
+      "OriginalItemSpec": "wwwroot\\cred.txt"
+    },
+    {
+      "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\credentials.json",
+      "SourceId": "2DO",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "credentials.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\credentials.json"
     },
     {
       "Identity": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\app.css",

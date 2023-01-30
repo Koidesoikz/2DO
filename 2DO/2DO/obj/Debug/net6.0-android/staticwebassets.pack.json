@@ -5,8 +5,12 @@
       "PackagePath": "staticwebassets\\2DO.styles.css"
     },
     {
-      "Id": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\APIStuff.txt",
-      "PackagePath": "staticwebassets\\APIStuff.txt"
+      "Id": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\cred.txt",
+      "PackagePath": "staticwebassets\\cred.txt"
+    },
+    {
+      "Id": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\credentials.json",
+      "PackagePath": "staticwebassets\\credentials.json"
     },
     {
       "Id": "D:\\Programmering\\Github\\2DO\\2DO\\2DO\\wwwroot\\css\\app.css",

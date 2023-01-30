@@ -399,3 +399,4 @@ FodyWeavers.xsd
 
 # Secret Files
 credentials.json
+cred.txt

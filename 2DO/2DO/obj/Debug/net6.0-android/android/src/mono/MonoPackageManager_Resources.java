@@ -8,6 +8,9 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.Controls.Xaml.dll",
 		"Microsoft.Maui.Controls.dll",
 		"Microsoft.Maui.Essentials.dll",
+		"AWSSDK.Core.dll",
+		"AWSSDK.SecurityToken.dll",
+		"DnsClient.dll",
 		"GoogleGson.dll",
 		"Microsoft.AspNetCore.Authorization.dll",
 		"Microsoft.AspNetCore.Components.dll",
@@ -34,6 +37,12 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Extensions.Primitives.dll",
 		"Microsoft.JSInterop.dll",
 		"Microsoft.Maui.Graphics.dll",
+		"MongoDB.Bson.dll",
+		"MongoDB.Driver.dll",
+		"MongoDB.Driver.Core.dll",
+		"MongoDB.Libmongocrypt.dll",
+		"SharpCompress.dll",
+		"Snappier.dll",
 		"System.IO.Pipelines.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
@@ -116,6 +125,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Kotlin.StdLib.Jdk8.dll",
 		"Xamarin.KotlinX.Coroutines.Android.dll",
 		"Xamarin.KotlinX.Coroutines.Core.Jvm.dll",
+		"ZstdSharp.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

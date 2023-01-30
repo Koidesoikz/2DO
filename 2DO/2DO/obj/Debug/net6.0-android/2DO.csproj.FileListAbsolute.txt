@@ -1978,3 +1978,15 @@ D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\stamp\_ConvertResou
 D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\android\assets\AWSSDK.Core.dll
+D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\android\assets\AWSSDK.Core.pdb
+D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\android\assets\AWSSDK.SecurityToken.dll
+D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\android\assets\AWSSDK.SecurityToken.pdb
+D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\android\assets\DnsClient.dll
+D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\android\assets\MongoDB.Bson.dll
+D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\android\assets\MongoDB.Driver.Core.dll
+D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\android\assets\MongoDB.Driver.dll
+D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\android\assets\MongoDB.Libmongocrypt.dll
+D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\android\assets\SharpCompress.dll
+D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\android\assets\Snappier.dll
+D:\Programmering\Github\2DO\2DO\2DO\obj\Debug\net6.0-android\android\assets\ZstdSharp.dll
