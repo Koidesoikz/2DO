@@ -3,6 +3,8 @@
 @using _2DO.Data
 @using System.Diagnostics
 
+@inject NavigationManager NavigationManager
+
 <h3>TestPage</h3>
 
 @if (goalList == null)
@@ -38,12 +40,15 @@ else
 
 @code {
     public List<Goal> goalList = new List<Goal>();
+    public SQLiteDB DB = new SQLiteDB();
 
     protected override async Task OnInitializedAsync()
     {
-        goalList.Add(new Goal("goal1"));
-        goalList.Add(new Goal("goal2"));
-        goalList.Add(new Goal("goal3"));
+        //goalList.Add(new Goal("goal1"));
+        //goalList.Add(new Goal("goal2"));
+        //goalList.Add(new Goal("goal3"));
+
+        goalList = await DB.GetAll<Goal>();
 
         foreach (Goal goal in goalList)
         {
@@ -66,13 +71,17 @@ else
     public async Task RemoveSpecificGoal(Goal goal) {
         bool res = await App.Current.MainPage.DisplayAlert("Delete goal", "Are you sure you want to delete " + goal.name, "Yes", "No");
         if(res) {
-            goalList.Remove(goal);
+            await DB.DeleteGoal(goal);
+            await RefreshGoalList();
         }
     }
 
     public async Task CreateNewGoal() {
         string res = await App.Current.MainPage.DisplayPromptAsync("Name your goal!", "Enter the goal you want to make!");
-        goalList.Add(new Goal(res));
+        Goal goal = new Goal(res);
+        await DB.Insert<Goal>(goal);
+        await RefreshGoalList();
+
     }
 
     //Test functions
@@ -83,18 +92,22 @@ else
         }
     }
 
-    public void AddStaticGoal() {
+    public async Task AddStaticGoal() {
         Debug.WriteLine("Adding static goal...");
-        goalList.Add(new Goal("staticGoal"));
+        Goal goal = new Goal("staticGoal");
+        await DB.Insert<Goal>(goal);
+        await RefreshGoalList();
     }
 
-    public void RemoveCompletedGoals() {
+    public async Task RemoveCompletedGoals() {
         foreach (Goal goal in goalList) {
             if(goal.complete) {
                 Debug.WriteLine(goal.name);
+                await DB.DeleteGoal(goal);
             }
         }
-        goalList.RemoveAll(x => x.complete == true);
+        await RefreshGoalList();
+        //goalList.RemoveAll(x => x.complete == true);
     }
 
     public void PrintUncompletedGoals() {
@@ -108,7 +121,7 @@ else
     public async Task TestDB() {
         SQLiteDB DB = new SQLiteDB();
         Debug.WriteLine("Accessing Database...");
-        List<Goal> allGoals =  await DB.GetAllGoals();
+        List<Goal> allGoals =  await DB.GetAll<Goal>();
         Debug.WriteLine("Goals acquired");
 
 
@@ -123,11 +136,17 @@ else
     }
 
     public async Task DropGoalsTable() {
-        SQLiteDB DB = new SQLiteDB();
-
         Debug.WriteLine("Dropping Goals Table");
         await DB.DropGoalTable();
         Debug.WriteLine("Goals Table Dropped!");
+
+        await RefreshGoalList();
+    }
+
+    public async Task RefreshGoalList() {
+        goalList.Clear();
+
+        goalList = await DB.GetAll<Goal>();
     }
 
 }

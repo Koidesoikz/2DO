@@ -5,16 +5,22 @@ namespace _2DO.Data;
 
 public class SQLiteDB {
     SQLiteAsyncConnection DB;
+    private bool droppedTable = false;
 
     public SQLiteDB() {
 
     }
 
     async Task Init() {
-        if (DB is not null) {
-            return;
-        }
+        if (DB is not null && !droppedTable) {
+            Debug.WriteLine("Jeg mistænker den her satan for at være skyld i lortet");
 
+            //Dårlig fix
+            if(await DB.ExecuteScalarAsync<int>("SELECT COUNT(*) FROM Goal") != 0) {
+                return;
+            }
+        }
+        Debug.WriteLine("POGGGGGGIES");
         DB = new SQLiteAsyncConnection(DBConstants.DatabasePath, DBConstants.Flags);
         SQLite.CreateTableResult result = await DB.CreateTableAsync<Goal>();
 
@@ -31,18 +37,34 @@ public class SQLiteDB {
 
     }
 
-    public async Task<List<Goal>> GetAllGoals() {
+    public async Task<List<Goal>> GetAll<T>() {
         await Init();
 
-        TableMapping goalSchema = await DB.GetMappingAsync(typeof(Goal));
-        object[] parameters = { goalSchema };
-        return await DB.QueryAsync<Goal>("SELECT * FROM Goal");
+        TableMapping goalSchema = await DB.GetMappingAsync(typeof(T));
+
+        Debug.WriteLine("Test ting: " + goalSchema.TableName);
+
+        return await DB.QueryAsync<Goal>($"SELECT * FROM {goalSchema.TableName}");
+    }
+
+    public async Task Insert<T>(T data) {
+        await Init();
+
+        await DB.InsertAsync(data);
     }
 
     public async Task DropGoalTable() {
         await Init();
 
         await DB.DropTableAsync<Goal>();
+
+        droppedTable = true;
+    }
+
+    public async Task DeleteGoal(Goal goal) {
+        await Init();
+
+        await DB.DeleteAsync(goal);
     }
 
 }
