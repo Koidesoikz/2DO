@@ -79,6 +79,14 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.19.0, )"
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -191,10 +199,18 @@
               "target": "Package",
               "version": "[2.19.0, )"
             },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
               "version": "[6.0.1, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -283,10 +299,18 @@
               "target": "Package",
               "version": "[2.19.0, )"
             },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
               "version": "[6.0.1, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -381,6 +405,14 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.19.0, )"
+            },
+            "SQLitePCLRaw.bundle_green": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [

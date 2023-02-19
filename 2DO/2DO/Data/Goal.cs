@@ -1,13 +1,20 @@
-﻿namespace _2DO.Data;
+﻿using SQLite;
+
+namespace _2DO.Data;
 
 public class Goal
 {
-    public bool complete;
-    public string name;
+    [PrimaryKey, AutoIncrement]
+    public int id { get; set; }
 
-    public Goal(string name)
-    {
+    public bool complete;
+    public string name { get; set; }
+
+    public Goal(string name) {
         this.name = name;
         this.complete = false;
+    }
+
+    public Goal() {
     }
 }

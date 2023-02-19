@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
+
 namespace _2DO;
 
 [Application]

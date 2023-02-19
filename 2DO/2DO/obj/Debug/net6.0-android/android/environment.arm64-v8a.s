@@ -1205,6 +1205,26 @@ app_system_properties:
 .L.env.buf.291:
 	.zero	68
 	.size	.L.env.buf.291, 68
+	.type	.L.env.buf.292, @object
+.L.env.buf.292:
+	.zero	68
+	.size	.L.env.buf.292, 68
+	.type	.L.env.buf.293, @object
+.L.env.buf.293:
+	.zero	68
+	.size	.L.env.buf.293, 68
+	.type	.L.env.buf.294, @object
+.L.env.buf.294:
+	.zero	68
+	.size	.L.env.buf.294, 68
+	.type	.L.env.buf.295, @object
+.L.env.buf.295:
+	.zero	68
+	.size	.L.env.buf.295, 68
+	.type	.L.env.buf.296, @object
+.L.env.buf.296:
+	.zero	68
+	.size	.L.env.buf.296, 68
 	// Bundled assemblies data
 
 	.type	bundled_assemblies, @object
@@ -3841,7 +3861,52 @@ bundled_assemblies:
 	.zero	4
 	.xword	.L.env.buf.291	// name
 
-	.size	bundled_assemblies, 11680
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.292	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.293	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.294	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.295	// name
+
+	.word	0xffffffff	// apk_fd
+	.word	0x0	// data_offset
+	.word	0x0	// data_size
+	.zero	4
+	.xword	0x0	// data
+	.word	0x0	// name_length
+	.zero	4
+	.xword	.L.env.buf.296	// name
+
+	.size	bundled_assemblies, 11880
 	// Assembly store individual assembly data
 	.type	assembly_store_bundled_assemblies, @object
 	.global	assembly_store_bundled_assemblies
@@ -3883,199 +3948,223 @@ dso_cache:
 	.xword	.L.autostr.16	// name: libmongocrypt.so
 	.xword	0x0	// handle
 
+	.xword	0x2c84184be8b423ce	// hash, from name: e_sqlite3.so
+	.byte	0x0	// ignore
+	.zero	7
+	.xword	.L.autostr.17	// name: libe_sqlite3.so
+	.xword	0x0	// handle
+
 	.xword	0x318a1887b586c370	// hash, from name: libmono-component-hot_reload
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.17	// name: libmono-component-hot_reload.so
+	.xword	.L.autostr.18	// name: libmono-component-hot_reload.so
+	.xword	0x0	// handle
+
+	.xword	0x3de4b96a21c31961	// hash, from name: libe_sqlite3.so
+	.byte	0x0	// ignore
+	.zero	7
+	.xword	.L.autostr.19	// name: libe_sqlite3.so
 	.xword	0x0	// handle
 
 	.xword	0x4d8592dfb7f19d84	// hash, from name: libmongocrypt.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.18	// name: libmongocrypt.so
+	.xword	.L.autostr.20	// name: libmongocrypt.so
 	.xword	0x0	// handle
 
 	.xword	0x4e4f7fd9c4797a21	// hash, from name: libmono-component-hot_reload.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.19	// name: libmono-component-hot_reload.so
+	.xword	.L.autostr.21	// name: libmono-component-hot_reload.so
 	.xword	0x0	// handle
 
 	.xword	0x51e4357ecbccbaba	// hash, from name: System.Security.Cryptography.Native.Android.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.20	// name: libSystem.Security.Cryptography.Native.Android.so
+	.xword	.L.autostr.22	// name: libSystem.Security.Cryptography.Native.Android.so
 	.xword	0x0	// handle
 
 	.xword	0x528f0afdb0921c40	// hash, from name: libSystem.Native.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.21	// name: libSystem.Native.so
+	.xword	.L.autostr.23	// name: libSystem.Native.so
 	.xword	0x0	// handle
 
 	.xword	0x544895645d121a38	// hash, from name: libmono-component-debugger
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.22	// name: libmono-component-debugger.so
+	.xword	.L.autostr.24	// name: libmono-component-debugger.so
 	.xword	0x0	// handle
 
 	.xword	0x578abc5300e958b7	// hash, from name: libSystem.Native
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.23	// name: libSystem.Native.so
+	.xword	.L.autostr.25	// name: libSystem.Native.so
 	.xword	0x0	// handle
 
 	.xword	0x5c15a2333b0a0c84	// hash, from name: libxamarin-debug-app-helper.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.24	// name: libxamarin-debug-app-helper.so
+	.xword	.L.autostr.26	// name: libxamarin-debug-app-helper.so
 	.xword	0x0	// handle
 
 	.xword	0x5ff274549d146133	// hash, from name: System.IO.Compression.Native.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.25	// name: libSystem.IO.Compression.Native.so
+	.xword	.L.autostr.27	// name: libSystem.IO.Compression.Native.so
 	.xword	0x0	// handle
 
 	.xword	0x65d94d818a60a3a7	// hash, from name: monodroid.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.26	// name: libmonodroid.so
+	.xword	.L.autostr.28	// name: libmonodroid.so
 	.xword	0x0	// handle
 
 	.xword	0x6a0685fd2cfebf80	// hash, from name: libSystem.IO.Compression.Native.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.27	// name: libSystem.IO.Compression.Native.so
+	.xword	.L.autostr.29	// name: libSystem.IO.Compression.Native.so
 	.xword	0x0	// handle
 
 	.xword	0x6b6b0562539657f0	// hash, from name: libmonosgen-2.0
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.28	// name: libmonosgen-2.0.so
+	.xword	.L.autostr.30	// name: libmonosgen-2.0.so
 	.xword	0x0	// handle
 
 	.xword	0x6cf9239740e64f9d	// hash, from name: libxamarin-debug-app-helper
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.29	// name: libxamarin-debug-app-helper.so
+	.xword	.L.autostr.31	// name: libxamarin-debug-app-helper.so
+	.xword	0x0	// handle
+
+	.xword	0x6f65df293440bc6c	// hash, from name: libe_sqlite3
+	.byte	0x0	// ignore
+	.zero	7
+	.xword	.L.autostr.32	// name: libe_sqlite3.so
 	.xword	0x0	// handle
 
 	.xword	0x74778f1b27881b01	// hash, from name: libmonodroid.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.30	// name: libmonodroid.so
+	.xword	.L.autostr.33	// name: libmonodroid.so
 	.xword	0x0	// handle
 
 	.xword	0x77b800a1f4c5abd8	// hash, from name: System.Native
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.31	// name: libSystem.Native.so
+	.xword	.L.autostr.34	// name: libSystem.Native.so
+	.xword	0x0	// handle
+
+	.xword	0x7cdb81e9d80b5d2a	// hash, from name: e_sqlite3
+	.byte	0x0	// ignore
+	.zero	7
+	.xword	.L.autostr.35	// name: libe_sqlite3.so
 	.xword	0x0	// handle
 
 	.xword	0x7daaf3a073c44dd7	// hash, from name: monodroid
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.32	// name: libmonodroid.so
+	.xword	.L.autostr.36	// name: libmonodroid.so
 	.xword	0x0	// handle
 
 	.xword	0x905f33cea45eb056	// hash, from name: mono-component-debugger.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.33	// name: libmono-component-debugger.so
+	.xword	.L.autostr.37	// name: libmono-component-debugger.so
 	.xword	0x0	// handle
 
 	.xword	0x918196231499ae33	// hash, from name: xamarin-debug-app-helper
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.34	// name: libxamarin-debug-app-helper.so
+	.xword	.L.autostr.38	// name: libxamarin-debug-app-helper.so
 	.xword	0x0	// handle
 
 	.xword	0x9af167ab9cbda4bd	// hash, from name: System.Security.Cryptography.Native.Android
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.35	// name: libSystem.Security.Cryptography.Native.Android.so
+	.xword	.L.autostr.39	// name: libSystem.Security.Cryptography.Native.Android.so
 	.xword	0x0	// handle
 
 	.xword	0x9fe56834a335f553	// hash, from name: libmonodroid
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.36	// name: libmonodroid.so
+	.xword	.L.autostr.40	// name: libmonodroid.so
 	.xword	0x0	// handle
 
 	.xword	0xc82f57facf333f6a	// hash, from name: monosgen-2.0.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.37	// name: libmonosgen-2.0.so
+	.xword	.L.autostr.41	// name: libmonosgen-2.0.so
 	.xword	0x0	// handle
 
 	.xword	0xcf53f28e7cc47248	// hash, from name: mono-component-hot_reload
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.38	// name: libmono-component-hot_reload.so
+	.xword	.L.autostr.42	// name: libmono-component-hot_reload.so
 	.xword	0x0	// handle
 
 	.xword	0xd4a77c68b22b8334	// hash, from name: mongocrypt.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.39	// name: libmongocrypt.so
+	.xword	.L.autostr.43	// name: libmongocrypt.so
 	.xword	0x0	// handle
 
 	.xword	0xe1d7771458b10685	// hash, from name: System.Native.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.40	// name: libSystem.Native.so
+	.xword	.L.autostr.44	// name: libSystem.Native.so
 	.xword	0x0	// handle
 
 	.xword	0xe7ff637b8de7a85b	// hash, from name: libmonosgen-2.0.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.41	// name: libmonosgen-2.0.so
+	.xword	.L.autostr.45	// name: libmonosgen-2.0.so
 	.xword	0x0	// handle
 
 	.xword	0xe83d0ca5e14cc36c	// hash, from name: libmongocrypt
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.42	// name: libmongocrypt.so
+	.xword	.L.autostr.46	// name: libmongocrypt.so
 	.xword	0x0	// handle
 
 	.xword	0xe935f11a41b02b22	// hash, from name: monosgen-2.0
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.43	// name: libmonosgen-2.0.so
+	.xword	.L.autostr.47	// name: libmonosgen-2.0.so
 	.xword	0x0	// handle
 
 	.xword	0xf3eec4cd80c0a45d	// hash, from name: System.IO.Compression.Native
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.44	// name: libSystem.IO.Compression.Native.so
+	.xword	.L.autostr.48	// name: libSystem.IO.Compression.Native.so
 	.xword	0x0	// handle
 
 	.xword	0xf9d134ddbd8dbeb4	// hash, from name: mono-component-hot_reload.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.45	// name: libmono-component-hot_reload.so
+	.xword	.L.autostr.49	// name: libmono-component-hot_reload.so
 	.xword	0x0	// handle
 
 	.xword	0xfa5300a1deb9e9c7	// hash, from name: libmono-component-debugger.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.46	// name: libmono-component-debugger.so
+	.xword	.L.autostr.50	// name: libmono-component-debugger.so
 	.xword	0x0	// handle
 
 	.xword	0xfbd30111a3b6e09a	// hash, from name: libSystem.IO.Compression.Native
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.47	// name: libSystem.IO.Compression.Native.so
+	.xword	.L.autostr.51	// name: libSystem.IO.Compression.Native.so
 	.xword	0x0	// handle
 
 	.xword	0xfd5e3c67ff65dc86	// hash, from name: libSystem.Security.Cryptography.Native.Android.so
 	.byte	0x0	// ignore
 	.zero	7
-	.xword	.L.autostr.48	// name: libSystem.Security.Cryptography.Native.Android.so
+	.xword	.L.autostr.52	// name: libSystem.Security.Cryptography.Native.Android.so
 	.xword	0x0	// handle
 
-	.size	dso_cache, 1152
+	.size	dso_cache, 1280
 
 	//
 	// Generated from instance of: Xamarin.Android.Tasks.ApplicationConfig, Xamarin.Android.Build.Tasks, Version=12.3.99.76, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
@@ -4101,13 +4190,13 @@ application_config:
 	.word	0x3	// package_naming_policy
 	.word	0xc	// environment_variable_count
 	.word	0x0	// system_property_count
-	.word	0x124	// number_of_assemblies_in_apk
+	.word	0x129	// number_of_assemblies_in_apk
 	.word	0x44	// bundled_assembly_name_width
 	.word	0x2	// number_of_assembly_store_files
-	.word	0x24	// number_of_dso_cache_entries
+	.word	0x28	// number_of_dso_cache_entries
 	.word	0x3	// mono_components_mask
 	.zero	4
-	.xword	.L.autostr.49	// android_package_name
+	.xword	.L.autostr.53	// android_package_name
 	.size	application_config, 56
 
 
@@ -4154,7 +4243,7 @@ application_config:
 
 	.type	.L.autostr.8, @object
 .L.autostr.8:
-	.asciz	"6a63e774-1b15-4a8d-beee-ff59a0dfa708"
+	.asciz	"3747ee52-ba17-468d-8dd0-32d1aacc0d7b"
 	.size	.L.autostr.8, 37
 
 	.type	.L.autostr.9, @object
@@ -4199,33 +4288,33 @@ application_config:
 
 	.type	.L.autostr.17, @object
 .L.autostr.17:
-	.asciz	"libmono-component-hot_reload.so"
-	.size	.L.autostr.17, 32
+	.asciz	"libe_sqlite3.so"
+	.size	.L.autostr.17, 16
 
 	.type	.L.autostr.18, @object
 .L.autostr.18:
-	.asciz	"libmongocrypt.so"
-	.size	.L.autostr.18, 17
+	.asciz	"libmono-component-hot_reload.so"
+	.size	.L.autostr.18, 32
 
 	.type	.L.autostr.19, @object
 .L.autostr.19:
-	.asciz	"libmono-component-hot_reload.so"
-	.size	.L.autostr.19, 32
+	.asciz	"libe_sqlite3.so"
+	.size	.L.autostr.19, 16
 
 	.type	.L.autostr.20, @object
 .L.autostr.20:
-	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
-	.size	.L.autostr.20, 50
+	.asciz	"libmongocrypt.so"
+	.size	.L.autostr.20, 17
 
 	.type	.L.autostr.21, @object
 .L.autostr.21:
-	.asciz	"libSystem.Native.so"
-	.size	.L.autostr.21, 20
+	.asciz	"libmono-component-hot_reload.so"
+	.size	.L.autostr.21, 32
 
 	.type	.L.autostr.22, @object
 .L.autostr.22:
-	.asciz	"libmono-component-debugger.so"
-	.size	.L.autostr.22, 30
+	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
+	.size	.L.autostr.22, 50
 
 	.type	.L.autostr.23, @object
 .L.autostr.23:
@@ -4234,18 +4323,18 @@ application_config:
 
 	.type	.L.autostr.24, @object
 .L.autostr.24:
-	.asciz	"libxamarin-debug-app-helper.so"
-	.size	.L.autostr.24, 31
+	.asciz	"libmono-component-debugger.so"
+	.size	.L.autostr.24, 30
 
 	.type	.L.autostr.25, @object
 .L.autostr.25:
-	.asciz	"libSystem.IO.Compression.Native.so"
-	.size	.L.autostr.25, 35
+	.asciz	"libSystem.Native.so"
+	.size	.L.autostr.25, 20
 
 	.type	.L.autostr.26, @object
 .L.autostr.26:
-	.asciz	"libmonodroid.so"
-	.size	.L.autostr.26, 16
+	.asciz	"libxamarin-debug-app-helper.so"
+	.size	.L.autostr.26, 31
 
 	.type	.L.autostr.27, @object
 .L.autostr.27:
@@ -4254,43 +4343,43 @@ application_config:
 
 	.type	.L.autostr.28, @object
 .L.autostr.28:
-	.asciz	"libmonosgen-2.0.so"
-	.size	.L.autostr.28, 19
+	.asciz	"libmonodroid.so"
+	.size	.L.autostr.28, 16
 
 	.type	.L.autostr.29, @object
 .L.autostr.29:
-	.asciz	"libxamarin-debug-app-helper.so"
-	.size	.L.autostr.29, 31
+	.asciz	"libSystem.IO.Compression.Native.so"
+	.size	.L.autostr.29, 35
 
 	.type	.L.autostr.30, @object
 .L.autostr.30:
-	.asciz	"libmonodroid.so"
-	.size	.L.autostr.30, 16
+	.asciz	"libmonosgen-2.0.so"
+	.size	.L.autostr.30, 19
 
 	.type	.L.autostr.31, @object
 .L.autostr.31:
-	.asciz	"libSystem.Native.so"
-	.size	.L.autostr.31, 20
+	.asciz	"libxamarin-debug-app-helper.so"
+	.size	.L.autostr.31, 31
 
 	.type	.L.autostr.32, @object
 .L.autostr.32:
-	.asciz	"libmonodroid.so"
+	.asciz	"libe_sqlite3.so"
 	.size	.L.autostr.32, 16
 
 	.type	.L.autostr.33, @object
 .L.autostr.33:
-	.asciz	"libmono-component-debugger.so"
-	.size	.L.autostr.33, 30
+	.asciz	"libmonodroid.so"
+	.size	.L.autostr.33, 16
 
 	.type	.L.autostr.34, @object
 .L.autostr.34:
-	.asciz	"libxamarin-debug-app-helper.so"
-	.size	.L.autostr.34, 31
+	.asciz	"libSystem.Native.so"
+	.size	.L.autostr.34, 20
 
 	.type	.L.autostr.35, @object
 .L.autostr.35:
-	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
-	.size	.L.autostr.35, 50
+	.asciz	"libe_sqlite3.so"
+	.size	.L.autostr.35, 16
 
 	.type	.L.autostr.36, @object
 .L.autostr.36:
@@ -4299,23 +4388,23 @@ application_config:
 
 	.type	.L.autostr.37, @object
 .L.autostr.37:
-	.asciz	"libmonosgen-2.0.so"
-	.size	.L.autostr.37, 19
+	.asciz	"libmono-component-debugger.so"
+	.size	.L.autostr.37, 30
 
 	.type	.L.autostr.38, @object
 .L.autostr.38:
-	.asciz	"libmono-component-hot_reload.so"
-	.size	.L.autostr.38, 32
+	.asciz	"libxamarin-debug-app-helper.so"
+	.size	.L.autostr.38, 31
 
 	.type	.L.autostr.39, @object
 .L.autostr.39:
-	.asciz	"libmongocrypt.so"
-	.size	.L.autostr.39, 17
+	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
+	.size	.L.autostr.39, 50
 
 	.type	.L.autostr.40, @object
 .L.autostr.40:
-	.asciz	"libSystem.Native.so"
-	.size	.L.autostr.40, 20
+	.asciz	"libmonodroid.so"
+	.size	.L.autostr.40, 16
 
 	.type	.L.autostr.41, @object
 .L.autostr.41:
@@ -4324,43 +4413,63 @@ application_config:
 
 	.type	.L.autostr.42, @object
 .L.autostr.42:
-	.asciz	"libmongocrypt.so"
-	.size	.L.autostr.42, 17
+	.asciz	"libmono-component-hot_reload.so"
+	.size	.L.autostr.42, 32
 
 	.type	.L.autostr.43, @object
 .L.autostr.43:
-	.asciz	"libmonosgen-2.0.so"
-	.size	.L.autostr.43, 19
+	.asciz	"libmongocrypt.so"
+	.size	.L.autostr.43, 17
 
 	.type	.L.autostr.44, @object
 .L.autostr.44:
-	.asciz	"libSystem.IO.Compression.Native.so"
-	.size	.L.autostr.44, 35
+	.asciz	"libSystem.Native.so"
+	.size	.L.autostr.44, 20
 
 	.type	.L.autostr.45, @object
 .L.autostr.45:
-	.asciz	"libmono-component-hot_reload.so"
-	.size	.L.autostr.45, 32
+	.asciz	"libmonosgen-2.0.so"
+	.size	.L.autostr.45, 19
 
 	.type	.L.autostr.46, @object
 .L.autostr.46:
-	.asciz	"libmono-component-debugger.so"
-	.size	.L.autostr.46, 30
+	.asciz	"libmongocrypt.so"
+	.size	.L.autostr.46, 17
 
 	.type	.L.autostr.47, @object
 .L.autostr.47:
-	.asciz	"libSystem.IO.Compression.Native.so"
-	.size	.L.autostr.47, 35
+	.asciz	"libmonosgen-2.0.so"
+	.size	.L.autostr.47, 19
 
 	.type	.L.autostr.48, @object
 .L.autostr.48:
-	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
-	.size	.L.autostr.48, 50
+	.asciz	"libSystem.IO.Compression.Native.so"
+	.size	.L.autostr.48, 35
 
 	.type	.L.autostr.49, @object
 .L.autostr.49:
+	.asciz	"libmono-component-hot_reload.so"
+	.size	.L.autostr.49, 32
+
+	.type	.L.autostr.50, @object
+.L.autostr.50:
+	.asciz	"libmono-component-debugger.so"
+	.size	.L.autostr.50, 30
+
+	.type	.L.autostr.51, @object
+.L.autostr.51:
+	.asciz	"libSystem.IO.Compression.Native.so"
+	.size	.L.autostr.51, 35
+
+	.type	.L.autostr.52, @object
+.L.autostr.52:
+	.asciz	"libSystem.Security.Cryptography.Native.Android.so"
+	.size	.L.autostr.52, 50
+
+	.type	.L.autostr.53, @object
+.L.autostr.53:
 	.asciz	"com.companyname.x_2do"
-	.size	.L.autostr.49, 22
+	.size	.L.autostr.53, 22
 
 
 	.ident	"Xamarin.Android remotes/origin/release/6.0.4xx @ af4a25d50f5a602c77d05c2ec8c8644c00cffbbd"

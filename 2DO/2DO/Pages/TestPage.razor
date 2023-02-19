@@ -29,7 +29,11 @@ else
 <br />
 <button @onclick="() => CreateNewGoal()">Create new goal</button> <br />
 <br />
-<button @onclick="() => TestMongoDBConnection()">TestMongoDBConnection</button>
+<button @onclick="() => TestDB()">TestDB</button>
+<br />
+<br />
+<h4>WARNING! THIS WILL DROP THE GOALS TABLE!!!</h4> <br />
+<button @onclick="() => DropGoalsTable()">Drop Goals Table</button>
 <br />
 
 @code {
@@ -101,12 +105,29 @@ else
         }
     }
 
-    public async Task TestMongoDBConnection() {
-        MongoDB db = new MongoDB();
+    public async Task TestDB() {
+        SQLiteDB DB = new SQLiteDB();
+        Debug.WriteLine("Accessing Database...");
+        List<Goal> allGoals =  await DB.GetAllGoals();
+        Debug.WriteLine("Goals acquired");
 
-        await db.ConnectToDB();
 
-        db.Test();
+        foreach(Goal g in allGoals) {
+            Debug.WriteLine("Goal Name: " + g.name);
+            Debug.WriteLine("Goal Id: " + g.id);
+            Debug.WriteLine("Goal Completion: " + g.complete);
+            Debug.WriteLine("");
+        }
+
+        Debug.WriteLine("Post Foreach");
+    }
+
+    public async Task DropGoalsTable() {
+        SQLiteDB DB = new SQLiteDB();
+
+        Debug.WriteLine("Dropping Goals Table");
+        await DB.DropGoalTable();
+        Debug.WriteLine("Goals Table Dropped!");
     }
 
 }
