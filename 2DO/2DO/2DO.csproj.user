@@ -3,7 +3,7 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net6.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>OnePlus LE2113 (Android 12.0 - API 31)</ActiveDebugProfile>
+    <ActiveDebugProfile>Pixel 5 - API 31 - OnePlus 9 (Android 12.0 - API 31)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <DefaultDevice>pixel_5_-_api_31_-_oneplus_9</DefaultDevice>
   </PropertyGroup>

@@ -47,10 +47,27 @@ public class SQLiteDB {
         return await DB.QueryAsync<Goal>($"SELECT * FROM {goalSchema.TableName}");
     }
 
+    public async Task<List<Goal>> GetAllGoalsByDate(DateTime date) {
+        await Init();
+
+        return await DB.QueryAsync<Goal>($"SELECT * FROM Goal WHERE date=?", date.ToShortDateString());
+    }
+
     public async Task Insert<T>(T data) {
         await Init();
 
         await DB.InsertAsync(data);
+    }
+
+    public async Task Update<T>(T data) {
+        await Init();
+
+        await DB.UpdateAsync(data);
+    }
+    public async Task Delete<T>(T data) {
+        await Init();
+
+        await DB.DeleteAsync(data);
     }
 
     public async Task DropGoalTable() {
@@ -59,12 +76,6 @@ public class SQLiteDB {
         await DB.DropTableAsync<Goal>();
 
         droppedTable = true;
-    }
-
-    public async Task DeleteGoal(Goal goal) {
-        await Init();
-
-        await DB.DeleteAsync(goal);
     }
 
 }

@@ -71,14 +71,14 @@ else
     public async Task RemoveSpecificGoal(Goal goal) {
         bool res = await App.Current.MainPage.DisplayAlert("Delete goal", "Are you sure you want to delete " + goal.name, "Yes", "No");
         if(res) {
-            await DB.DeleteGoal(goal);
+            await DB.Delete<Goal>(goal);
             await RefreshGoalList();
         }
     }
 
     public async Task CreateNewGoal() {
         string res = await App.Current.MainPage.DisplayPromptAsync("Name your goal!", "Enter the goal you want to make!");
-        Goal goal = new Goal(res);
+        Goal goal = new Goal(res, DateTime.Now);
         await DB.Insert<Goal>(goal);
         await RefreshGoalList();
 
@@ -94,7 +94,7 @@ else
 
     public async Task AddStaticGoal() {
         Debug.WriteLine("Adding static goal...");
-        Goal goal = new Goal("staticGoal");
+        Goal goal = new Goal("staticGoal", DateTime.Now);
         await DB.Insert<Goal>(goal);
         await RefreshGoalList();
     }
@@ -103,7 +103,7 @@ else
         foreach (Goal goal in goalList) {
             if(goal.complete) {
                 Debug.WriteLine(goal.name);
-                await DB.DeleteGoal(goal);
+                await DB.Delete<Goal>(goal);
             }
         }
         await RefreshGoalList();
@@ -129,6 +129,7 @@ else
             Debug.WriteLine("Goal Name: " + g.name);
             Debug.WriteLine("Goal Id: " + g.id);
             Debug.WriteLine("Goal Completion: " + g.complete);
+            Debug.WriteLine("Goal Date: " + g.date);
             Debug.WriteLine("");
         }
 
