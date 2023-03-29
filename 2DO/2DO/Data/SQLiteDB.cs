@@ -50,7 +50,13 @@ public class SQLiteDB {
     public async Task<List<Goal>> GetAllGoalsByDate(DateTime date) {
         await Init();
 
-        return await DB.QueryAsync<Goal>($"SELECT * FROM Goal WHERE date=?", date.ToShortDateString());
+        return await DB.QueryAsync<Goal>($"SELECT * FROM Goal WHERE dateCreated=?", date.ToString("yyyy/MM/dd"));
+    }
+
+    public async Task<List<Goal>> GetAllMissedGoals() {
+        await Init();
+
+        return await DB.QueryAsync<Goal>(@"SELECT * FROM Goal WHERE dateCreated < ? AND complete=False", DateTime.Now.AddDays(0).ToString("yyyy/MM/dd"));
     }
 
     public async Task Insert<T>(T data) {

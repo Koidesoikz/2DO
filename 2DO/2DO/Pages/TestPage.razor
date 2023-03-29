@@ -33,6 +33,8 @@ else
 <br />
 <button @onclick="() => TestDB()">TestDB</button>
 <br />
+<button @onclick="() => SetupMissedDB()">Setup Database with missed goal data</button>
+<br />
 <br />
 <h4>WARNING! THIS WILL DROP THE GOALS TABLE!!!</h4> <br />
 <button @onclick="() => DropGoalsTable()">Drop Goals Table</button>
@@ -56,16 +58,19 @@ else
         }
     }
 
-    public void CheckboxClicked(Goal goal, object checkboxState)
+    public async Task CheckboxClicked(Goal goal, object checkboxState)
     {
         //Add functinality
         if ((bool)checkboxState == true) {
             Debug.WriteLine($"{goal.name} was marked as completed!");
             goal.complete = true;
+            goal.dateCompleted = DateTime.Now.ToString("yyyy/MM/dd");
         } else {
             Debug.WriteLine($"{goal.name} was marked as uncompleted!");
             goal.complete = false;
+            goal.dateCompleted = "";
         }
+        await DB.Update(goal);
     }
 
     public async Task RemoveSpecificGoal(Goal goal) {
@@ -129,7 +134,8 @@ else
             Debug.WriteLine("Goal Name: " + g.name);
             Debug.WriteLine("Goal Id: " + g.id);
             Debug.WriteLine("Goal Completion: " + g.complete);
-            Debug.WriteLine("Goal Date: " + g.date);
+            Debug.WriteLine("Goal Creation Date: " + g.dateCreated);
+            Debug.WriteLine("Goal Completion Date: " + g.dateCompleted);
             Debug.WriteLine("");
         }
 
@@ -150,4 +156,36 @@ else
         goalList = await DB.GetAll<Goal>();
     }
 
+    public async Task SetupMissedDB() {
+        List<Goal> tempGoalList = new List<Goal>();
+
+        Goal testGoal1 = new Goal("Added Today Complete", DateTime.Now);
+        Goal testGoal2 = new Goal("Added Today Missed", DateTime.Now);
+        testGoal2.complete = false;
+        Goal testGoal3 = new Goal("Added Yesterday Complete", DateTime.Now.AddDays(-1));
+        Goal testGoal4 = new Goal("Added Yesterday Missed", DateTime.Now.AddDays(-1));
+        testGoal4.complete = false;
+        Goal testGoal5 = new Goal("Added 5 days ago Complete", DateTime.Now.AddDays(-5));
+        Goal testGoal6 = new Goal("Added 5 days ago Missed", DateTime.Now.AddDays(-5));
+        testGoal6.complete = false;
+        Goal testGoal7 = new Goal("Added Tomorrow Complete", DateTime.Now.AddDays(1));
+        Goal testGoal8 = new Goal("Added Tomorrow Missed", DateTime.Now.AddDays(1));
+        testGoal8.complete = false;
+
+        tempGoalList.Add(testGoal1);
+        tempGoalList.Add(testGoal2);
+        tempGoalList.Add(testGoal3);
+        tempGoalList.Add(testGoal4);
+        tempGoalList.Add(testGoal5);
+        tempGoalList.Add(testGoal6);
+        tempGoalList.Add(testGoal7);
+        tempGoalList.Add(testGoal8);
+
+
+        foreach(Goal goal in tempGoalList) {
+            await DB.Insert<Goal>(goal);
+        }
+
+        Debug.WriteLine("Missed Goals dummy data added!!");
+    }
 }

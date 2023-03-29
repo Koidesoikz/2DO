@@ -1,0 +1,36 @@
+﻿@*INJECTIONS*@
+@page "/MissedGoals"
+
+@using _2DO.Data
+@using System.Diagnostics
+@using System.Linq
+
+<h3>MissedGoals</h3>
+@if(missedGoals == null) {
+    <p><em>Loading...</em></p>
+} else {
+    <div class="goalContainer">
+        @foreach(Goal goal in missedGoals) {
+            <div class="missedGoal">
+                <p>@goal.name | @goal.dateCreated</p>
+            </div>
+        }
+    </div>
+}
+
+
+@code {
+    public List<Goal> missedGoals = new List<Goal>();
+    public SQLiteDB DB = new SQLiteDB();
+
+    protected override async Task OnInitializedAsync() {
+        missedGoals = await DB.GetAllMissedGoals();
+
+        //Sort by date (https://stackoverflow.com/questions/3309188/how-to-sort-a-listt-by-a-property-in-the-object)
+        missedGoals = missedGoals.OrderBy(o => o.dateCreated).ToList();
+
+        foreach(Goal goal in missedGoals) {
+            Debug.WriteLine("added the goal: " + goal.name);
+        }
+    }
+}

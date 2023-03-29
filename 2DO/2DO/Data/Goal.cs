@@ -9,12 +9,13 @@ public class Goal
 
     public bool complete { get; set; }
     public string name { get; set; }
-    public string date { get; set; }
+    public string dateCreated { get; set; }
+    public string dateCompleted { get; set; }
 
     public Goal(string name, DateTime dateTimeDate) {
         this.name = name;
-        this.date = dateTimeDate.ToShortDateString();
-
+        this.dateCreated = dateTimeDate.ToString("yyyy/MM/dd");
+        this.dateCompleted = "";
         this.complete = false;
     }
 

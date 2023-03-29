@@ -158,7 +158,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -498,7 +498,7 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -515,7 +515,7 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -2799,7 +2799,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -3139,7 +3139,7 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -3156,7 +3156,7 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -5401,7 +5401,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -5741,7 +5741,7 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -5758,7 +5758,7 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -8003,7 +8003,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -8343,7 +8343,7 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -8360,7 +8360,7 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -10605,7 +10605,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -10945,7 +10945,7 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -10962,7 +10962,7 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -13207,7 +13207,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -13547,7 +13547,7 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -13564,7 +13564,7 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -15806,7 +15806,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -16146,7 +16146,7 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -16163,7 +16163,7 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -18405,7 +18405,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -18745,7 +18745,7 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
@@ -18762,7 +18762,7 @@
           "Xamarin.Google.Crypto.Tink.Android": "1.6.1.6"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -20850,7 +20850,7 @@
         }
       }
     },
-    "net6.0-ios16.0": {
+    "net6.0-ios16.1": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -20994,7 +20994,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -21003,12 +21003,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -21335,14 +21335,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -21742,7 +21742,7 @@
         }
       }
     },
-    "net6.0-ios16.0/android-arm": {
+    "net6.0-ios16.1/android-arm": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -21886,7 +21886,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -21895,12 +21895,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -22227,14 +22227,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -22595,7 +22595,7 @@
         }
       }
     },
-    "net6.0-ios16.0/android-arm64": {
+    "net6.0-ios16.1/android-arm64": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -22739,7 +22739,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -22748,12 +22748,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -23080,14 +23080,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -23448,7 +23448,7 @@
         }
       }
     },
-    "net6.0-ios16.0/android-x64": {
+    "net6.0-ios16.1/android-x64": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -23592,7 +23592,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -23601,12 +23601,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -23933,14 +23933,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -24301,7 +24301,7 @@
         }
       }
     },
-    "net6.0-ios16.0/android-x86": {
+    "net6.0-ios16.1/android-x86": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -24445,7 +24445,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -24454,12 +24454,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -24786,14 +24786,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -25154,7 +25154,7 @@
         }
       }
     },
-    "net6.0-ios16.0/iossimulator-x64": {
+    "net6.0-ios16.1/iossimulator-x64": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -25298,7 +25298,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -25307,12 +25307,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -25639,14 +25639,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -26004,7 +26004,7 @@
         }
       }
     },
-    "net6.0-ios16.0/maccatalyst-x64": {
+    "net6.0-ios16.1/maccatalyst-x64": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -26148,7 +26148,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -26157,12 +26157,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -26489,14 +26489,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -26854,7 +26854,7 @@
         }
       }
     },
-    "net6.0-ios16.0/win10-x64": {
+    "net6.0-ios16.1/win10-x64": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -26998,7 +26998,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -27007,12 +27007,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -27339,14 +27339,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -27707,7 +27707,7 @@
         }
       }
     },
-    "net6.0-maccatalyst15.4": {
+    "net6.0-maccatalyst16.1": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -27851,7 +27851,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -27860,12 +27860,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -28192,14 +28192,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -28705,7 +28705,7 @@
         }
       }
     },
-    "net6.0-maccatalyst15.4/android-arm": {
+    "net6.0-maccatalyst16.1/android-arm": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -28849,7 +28849,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -28858,12 +28858,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -29190,14 +29190,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -29573,7 +29573,7 @@
         }
       }
     },
-    "net6.0-maccatalyst15.4/android-arm64": {
+    "net6.0-maccatalyst16.1/android-arm64": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -29717,7 +29717,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -29726,12 +29726,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -30058,14 +30058,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -30441,7 +30441,7 @@
         }
       }
     },
-    "net6.0-maccatalyst15.4/android-x64": {
+    "net6.0-maccatalyst16.1/android-x64": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -30585,7 +30585,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -30594,12 +30594,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -30926,14 +30926,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -31309,7 +31309,7 @@
         }
       }
     },
-    "net6.0-maccatalyst15.4/android-x86": {
+    "net6.0-maccatalyst16.1/android-x86": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -31453,7 +31453,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -31462,12 +31462,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -31794,14 +31794,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -32177,7 +32177,7 @@
         }
       }
     },
-    "net6.0-maccatalyst15.4/iossimulator-x64": {
+    "net6.0-maccatalyst16.1/iossimulator-x64": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -32321,7 +32321,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -32330,12 +32330,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -32662,14 +32662,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -33039,7 +33039,7 @@
         }
       }
     },
-    "net6.0-maccatalyst15.4/maccatalyst-x64": {
+    "net6.0-maccatalyst16.1/maccatalyst-x64": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -33183,7 +33183,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -33192,12 +33192,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -33524,14 +33524,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -33904,7 +33904,7 @@
         }
       }
     },
-    "net6.0-maccatalyst15.4/win10-x64": {
+    "net6.0-maccatalyst16.1/win10-x64": {
       "AWSSDK.Core/3.7.100.14": {
         "type": "package",
         "compile": {
@@ -34048,7 +34048,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -34057,12 +34057,12 @@
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
+          "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -34389,14 +34389,14 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Graphics": "6.0.501",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -34916,7 +34916,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -35285,16 +35285,16 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.3.1",
           "Microsoft.Maui.Graphics": "6.0.501",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.501",
-          "Microsoft.WindowsAppSDK": "1.1.3"
+          "Microsoft.WindowsAppSDK": "1.1.5"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -35373,7 +35373,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.1.3": {
+      "Microsoft.WindowsAppSDK/1.1.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194"
@@ -36038,7 +36038,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -36393,16 +36393,16 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.3.1",
           "Microsoft.Maui.Graphics": "6.0.501",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.501",
-          "Microsoft.WindowsAppSDK": "1.1.3"
+          "Microsoft.WindowsAppSDK": "1.1.5"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -36475,7 +36475,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.1.3": {
+      "Microsoft.WindowsAppSDK/1.1.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194"
@@ -37002,7 +37002,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -37357,16 +37357,16 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.3.1",
           "Microsoft.Maui.Graphics": "6.0.501",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.501",
-          "Microsoft.WindowsAppSDK": "1.1.3"
+          "Microsoft.WindowsAppSDK": "1.1.5"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -37439,7 +37439,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.1.3": {
+      "Microsoft.WindowsAppSDK/1.1.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194"
@@ -37966,7 +37966,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -38321,16 +38321,16 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.3.1",
           "Microsoft.Maui.Graphics": "6.0.501",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.501",
-          "Microsoft.WindowsAppSDK": "1.1.3"
+          "Microsoft.WindowsAppSDK": "1.1.5"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -38403,7 +38403,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.1.3": {
+      "Microsoft.WindowsAppSDK/1.1.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194"
@@ -38930,7 +38930,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -39285,16 +39285,16 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.3.1",
           "Microsoft.Maui.Graphics": "6.0.501",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.501",
-          "Microsoft.WindowsAppSDK": "1.1.3"
+          "Microsoft.WindowsAppSDK": "1.1.5"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -39367,7 +39367,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.1.3": {
+      "Microsoft.WindowsAppSDK/1.1.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194"
@@ -39894,7 +39894,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -40249,16 +40249,16 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.3.1",
           "Microsoft.Maui.Graphics": "6.0.501",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.501",
-          "Microsoft.WindowsAppSDK": "1.1.3"
+          "Microsoft.WindowsAppSDK": "1.1.5"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -40331,7 +40331,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.1.3": {
+      "Microsoft.WindowsAppSDK/1.1.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194"
@@ -40852,7 +40852,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -41207,16 +41207,16 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.3.1",
           "Microsoft.Maui.Graphics": "6.0.501",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.501",
-          "Microsoft.WindowsAppSDK": "1.1.3"
+          "Microsoft.WindowsAppSDK": "1.1.5"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -41289,7 +41289,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.1.3": {
+      "Microsoft.WindowsAppSDK/1.1.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194"
@@ -41813,7 +41813,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
+      "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authorization": "6.0.8",
@@ -42171,16 +42171,16 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.547": {
+      "Microsoft.Maui.Dependencies/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.0.3.1",
           "Microsoft.Maui.Graphics": "6.0.501",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.501",
-          "Microsoft.WindowsAppSDK": "1.1.3"
+          "Microsoft.WindowsAppSDK": "1.1.5"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.547": {
+      "Microsoft.Maui.Extensions/6.0.552": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -42253,7 +42253,7 @@
           "build/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.1.3": {
+      "Microsoft.WindowsAppSDK/1.1.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194"
@@ -42831,10 +42831,10 @@
         "microsoft.aspnetcore.components.webview.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.WebView.Maui/6.0.547": {
-      "sha512": "GC4cxuDSccciCaiap9sgSyeD0XveZ8YV6K4R+cX5EHmDB7IztdWy3s/3aF5QTZAsZjChB0dI8j9Xp577N6XPOg==",
+    "Microsoft.AspNetCore.Components.WebView.Maui/6.0.552": {
+      "sha512": "VNShv7sO1sqZWWpP+KffOVSvFA7kMUgsl+WhoUvrwvhWNSnknB3gZIWFWqDtgrXQ7+jfU3pjUgLWO8AeWG249w==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.webview.maui/6.0.547",
+      "path": "microsoft.aspnetcore.components.webview.maui/6.0.552",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -42843,12 +42843,12 @@
         "lib/net6.0-android31.0/Microsoft.AspNetCore.Components.WebView.Maui.dll",
         "lib/net6.0-android31.0/Microsoft.AspNetCore.Components.WebView.Maui.pdb",
         "lib/net6.0-android31.0/Microsoft.AspNetCore.Components.WebView.Maui.xml",
-        "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.dll",
-        "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.pdb",
-        "lib/net6.0-ios16.0/Microsoft.AspNetCore.Components.WebView.Maui.xml",
-        "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.dll",
-        "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.pdb",
-        "lib/net6.0-maccatalyst15.4/Microsoft.AspNetCore.Components.WebView.Maui.xml",
+        "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll",
+        "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.pdb",
+        "lib/net6.0-ios16.1/Microsoft.AspNetCore.Components.WebView.Maui.xml",
+        "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.dll",
+        "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.pdb",
+        "lib/net6.0-maccatalyst16.1/Microsoft.AspNetCore.Components.WebView.Maui.xml",
         "lib/net6.0-tizen7.0/Microsoft.AspNetCore.Components.WebView.Maui.dll",
         "lib/net6.0-tizen7.0/Microsoft.AspNetCore.Components.WebView.Maui.pdb",
         "lib/net6.0-tizen7.0/Microsoft.AspNetCore.Components.WebView.Maui.xml",
@@ -42861,7 +42861,7 @@
         "lib/net6.0/Microsoft.AspNetCore.Components.WebView.Maui.dll",
         "lib/net6.0/Microsoft.AspNetCore.Components.WebView.Maui.pdb",
         "lib/net6.0/Microsoft.AspNetCore.Components.WebView.Maui.xml",
-        "microsoft.aspnetcore.components.webview.maui.6.0.547.nupkg.sha512",
+        "microsoft.aspnetcore.components.webview.maui.6.0.552.nupkg.sha512",
         "microsoft.aspnetcore.components.webview.maui.nuspec"
       ]
     },
@@ -43306,25 +43306,25 @@
         "microsoft.jsinterop.nuspec"
       ]
     },
-    "Microsoft.Maui.Dependencies/6.0.547": {
-      "sha512": "3RTnfV1t3h7kN2eGvGnQNQgWbU+m0Ne80omyNaYrUyzlur7HOw3/D85jCxhPkRHNaah2dWsbiZnxoTEU3uPdoA==",
+    "Microsoft.Maui.Dependencies/6.0.552": {
+      "sha512": "jzM9KKmdGnkWSlrJ3mLfnJFdmYrrDjN+pt8hhoK0h2dIafzTnIkimZtf/ZrUBf4N8SiPcYWAMUUJZaXYf04KWQ==",
       "type": "package",
-      "path": "microsoft.maui.dependencies/6.0.547",
+      "path": "microsoft.maui.dependencies/6.0.552",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.maui.dependencies.6.0.547.nupkg.sha512",
+        "microsoft.maui.dependencies.6.0.552.nupkg.sha512",
         "microsoft.maui.dependencies.nuspec"
       ]
     },
-    "Microsoft.Maui.Extensions/6.0.547": {
-      "sha512": "vgQnD1d6hqg6M4+nV9+EKlgYUIlPhifsE3EgNFvYQ4ms1f2dRDQSrhQdlaQpdjvves32SHS4VeBbBjFTsxc1Ag==",
+    "Microsoft.Maui.Extensions/6.0.552": {
+      "sha512": "ueYEILJkRORfLGPojv7cTlycd7ogBBKi8+sZ8HNS0bsJwgMbKFhOxq4k2FiEDOBIqtpkueX0NHPpMUkgJlFxYQ==",
       "type": "package",
-      "path": "microsoft.maui.extensions/6.0.547",
+      "path": "microsoft.maui.extensions/6.0.552",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.maui.extensions.6.0.547.nupkg.sha512",
+        "microsoft.maui.extensions.6.0.552.nupkg.sha512",
         "microsoft.maui.extensions.nuspec"
       ]
     },
@@ -43572,15 +43572,16 @@
         "schemas/10.0.22000.0/winrt/UapManifestSchema_v8.xsd"
       ]
     },
-    "Microsoft.WindowsAppSDK/1.1.3": {
-      "sha512": "PMJ9oPsUnl5FVaIdDwFscmu2t/NEJcdcuDIIbRuK8+5ZZijtCdfdatKayn2O9SL0ziFysUCoHdMJ+PFbybyxzg==",
+    "Microsoft.WindowsAppSDK/1.1.5": {
+      "sha512": "gGeFfN1AQiIo6DaPe4KkOvlx/EDjwq/Lc+Q3EzX+U4x/hsiZkls/XqFpNTjELyYgsxl8g0SiPzguJ7A1dlhC6Q==",
       "type": "package",
-      "path": "microsoft.windowsappsdk/1.1.3",
+      "path": "microsoft.windowsappsdk/1.1.5",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "AppxManifest.xml",
+        "NOTICE.txt",
         "WindowsAppSDK-VersionInfo.json",
         "WindowsAppSDK-VersionInfo.xml",
         "build/AppDevPackageScripts/Add-AppDevPackage.ps1",
@@ -44013,7 +44014,7 @@
         "manifests/Microsoft.InteractiveExperiences.manifest",
         "manifests/Microsoft.WindowsAppSdk.Foundation.manifest",
         "manifests/manifests/Microsoft.WindowsAppSdk.WinUI.manifest",
-        "microsoft.windowsappsdk.1.1.3.nupkg.sha512",
+        "microsoft.windowsappsdk.1.1.5.nupkg.sha512",
         "microsoft.windowsappsdk.nuspec",
         "runtimes/win10-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll",
         "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll",
@@ -44041,7 +44042,6 @@
         "tools/net472/Microsoft.Build.Utilities.Core.dll",
         "tools/net472/Microsoft.Build.dll",
         "tools/net472/Microsoft.Cci.dll",
-        "tools/net472/Microsoft.Diagnostics.Tracing.EventSource.dll",
         "tools/net472/Microsoft.UI.Xaml.Markup.Compiler.IO.dll",
         "tools/net472/Microsoft.UI.Xaml.Markup.Compiler.MSBuildInterop.dll",
         "tools/net472/Microsoft.UI.Xaml.Markup.Compiler.dll",
@@ -44049,6 +44049,7 @@
         "tools/net472/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
         "tools/net472/Microsoft.VisualStudio.Telemetry.dll",
         "tools/net472/Microsoft.VisualStudio.Utilities.Internal.dll",
+        "tools/net472/Newtonsoft.Json.dll",
         "tools/net472/System.Buffers.dll",
         "tools/net472/System.Collections.Immutable.dll",
         "tools/net472/System.Memory.dll",
@@ -44125,6 +44126,7 @@
         "tools/net5.0/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
         "tools/net5.0/Microsoft.VisualStudio.Telemetry.dll",
         "tools/net5.0/Microsoft.VisualStudio.Utilities.Internal.dll",
+        "tools/net5.0/Newtonsoft.Json.dll",
         "tools/net5.0/System.Runtime.CompilerServices.Unsafe.dll",
         "tools/net5.0/System.Text.Encodings.Web.dll",
         "tools/net5.0/System.Text.Json.dll",
@@ -46647,35 +46649,35 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-android31.0": [
-      "Microsoft.AspNetCore.Components.WebView.Maui >= 6.0.547",
-      "Microsoft.Maui.Dependencies >= 6.0.547",
-      "Microsoft.Maui.Extensions >= 6.0.547",
+      "Microsoft.AspNetCore.Components.WebView.Maui >= 6.0.552",
+      "Microsoft.Maui.Dependencies >= 6.0.552",
+      "Microsoft.Maui.Extensions >= 6.0.552",
       "MongoDB.Driver >= 2.19.0",
       "SQLitePCLRaw.bundle_green >= 2.1.4",
       "sqlite-net-pcl >= 1.8.116"
     ],
-    "net6.0-ios16.0": [
-      "Microsoft.AspNetCore.Components.WebView.Maui >= 6.0.547",
-      "Microsoft.Maui.Dependencies >= 6.0.547",
-      "Microsoft.Maui.Extensions >= 6.0.547",
+    "net6.0-ios16.1": [
+      "Microsoft.AspNetCore.Components.WebView.Maui >= 6.0.552",
+      "Microsoft.Maui.Dependencies >= 6.0.552",
+      "Microsoft.Maui.Extensions >= 6.0.552",
       "MongoDB.Driver >= 2.19.0",
       "SQLitePCLRaw.bundle_green >= 2.1.4",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1",
       "sqlite-net-pcl >= 1.8.116"
     ],
-    "net6.0-maccatalyst15.4": [
-      "Microsoft.AspNetCore.Components.WebView.Maui >= 6.0.547",
-      "Microsoft.Maui.Dependencies >= 6.0.547",
-      "Microsoft.Maui.Extensions >= 6.0.547",
+    "net6.0-maccatalyst16.1": [
+      "Microsoft.AspNetCore.Components.WebView.Maui >= 6.0.552",
+      "Microsoft.Maui.Dependencies >= 6.0.552",
+      "Microsoft.Maui.Extensions >= 6.0.552",
       "MongoDB.Driver >= 2.19.0",
       "SQLitePCLRaw.bundle_green >= 2.1.4",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1",
       "sqlite-net-pcl >= 1.8.116"
     ],
     "net6.0-windows10.0.19041": [
-      "Microsoft.AspNetCore.Components.WebView.Maui >= 6.0.547",
-      "Microsoft.Maui.Dependencies >= 6.0.547",
-      "Microsoft.Maui.Extensions >= 6.0.547",
+      "Microsoft.AspNetCore.Components.WebView.Maui >= 6.0.552",
+      "Microsoft.Maui.Dependencies >= 6.0.552",
+      "Microsoft.Maui.Extensions >= 6.0.552",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22000.194",
       "MongoDB.Driver >= 2.19.0",
       "SQLitePCLRaw.bundle_green >= 2.1.4",
@@ -46720,11 +46722,11 @@
           "targetAlias": "net6.0-android",
           "projectReferences": {}
         },
-        "net6.0-ios16.0": {
+        "net6.0-ios16.1": {
           "targetAlias": "net6.0-ios",
           "projectReferences": {}
         },
-        "net6.0-maccatalyst15.4": {
+        "net6.0-maccatalyst16.1": {
           "targetAlias": "net6.0-maccatalyst",
           "projectReferences": {}
         },
@@ -46745,17 +46747,17 @@
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebView.Maui": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.552, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.552, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.552, )",
             "autoReferenced": true
           },
           "MongoDB.Driver": {
@@ -46785,59 +46787,59 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.Android.Ref.31",
-            "version": "[32.0.476, 32.0.476]"
+            "version": "[32.0.485, 32.0.485]"
           },
           {
             "name": "Microsoft.Android.Runtime.31.android-arm",
-            "version": "[32.0.476, 32.0.476]"
+            "version": "[32.0.485, 32.0.485]"
           },
           {
             "name": "Microsoft.Android.Runtime.31.android-arm64",
-            "version": "[32.0.476, 32.0.476]"
+            "version": "[32.0.485, 32.0.485]"
           },
           {
             "name": "Microsoft.Android.Runtime.31.android-x64",
-            "version": "[32.0.476, 32.0.476]"
+            "version": "[32.0.485, 32.0.485]"
           },
           {
             "name": "Microsoft.Android.Runtime.31.android-x86",
-            "version": "[32.0.476, 32.0.476]"
+            "version": "[32.0.485, 32.0.485]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
-            "version": "[6.0.11, 6.0.11]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-arm64",
-            "version": "[6.0.11, 6.0.11]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-            "version": "[6.0.11, 6.0.11]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.Maui.Controls.Ref.android",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Controls.Runtime.android",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Core.Ref.android",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Core.Runtime.android",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Essentials.Ref.android",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Essentials.Runtime.android",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           }
         ],
         "frameworkReferences": {
@@ -46857,24 +46859,24 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       },
-      "net6.0-ios16.0": {
+      "net6.0-ios16.1": {
         "targetAlias": "net6.0-ios",
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebView.Maui": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.552, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.552, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.552, )",
             "autoReferenced": true
           },
           "MongoDB.Driver": {
@@ -46909,35 +46911,35 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.iOS.Ref",
-            "version": "[16.0.527, 16.0.527]"
+            "version": "[16.2.19, 16.2.19]"
           },
           {
             "name": "Microsoft.iOS.Runtime.iossimulator-x64",
-            "version": "[16.0.527, 16.0.527]"
+            "version": "[16.2.19, 16.2.19]"
           },
           {
             "name": "Microsoft.Maui.Controls.Ref.ios",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Controls.Runtime.ios",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Core.Ref.ios",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Core.Runtime.ios",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Essentials.Ref.ios",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Essentials.Runtime.ios",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           }
         ],
         "frameworkReferences": {
@@ -46957,24 +46959,24 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       },
-      "net6.0-maccatalyst15.4": {
+      "net6.0-maccatalyst16.1": {
         "targetAlias": "net6.0-maccatalyst",
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebView.Maui": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.552, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.552, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.552, )",
             "autoReferenced": true
           },
           "MongoDB.Driver": {
@@ -47010,35 +47012,35 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.MacCatalyst.Ref",
-            "version": "[15.4.471, 15.4.471]"
+            "version": "[16.2.19, 16.2.19]"
           },
           {
             "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64",
-            "version": "[15.4.471, 15.4.471]"
+            "version": "[16.2.19, 16.2.19]"
           },
           {
             "name": "Microsoft.Maui.Controls.Ref.maccatalyst",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Controls.Runtime.maccatalyst",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Core.Ref.maccatalyst",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Core.Runtime.maccatalyst",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Essentials.Ref.maccatalyst",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Essentials.Runtime.maccatalyst",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           }
         ],
         "frameworkReferences": {
@@ -47058,24 +47060,24 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       },
       "net6.0-windows10.0.19041": {
         "targetAlias": "net6.0-windows10.0.19041.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebView.Maui": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.552, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.552, )",
             "autoReferenced": true
           },
           "Microsoft.Maui.Extensions": {
             "target": "Package",
-            "version": "[6.0.547, )",
+            "version": "[6.0.552, )",
             "autoReferenced": true
           },
           "Microsoft.Windows.SDK.BuildTools": {
@@ -47111,43 +47113,43 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[6.0.11, 6.0.11]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.Maui.Controls.Ref.win",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Controls.Runtime.win",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Core.Ref.win",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Core.Runtime.win",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Essentials.Ref.win",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.Maui.Essentials.Runtime.win",
-            "version": "[6.0.547, 6.0.547]"
+            "version": "[6.0.552, 6.0.552]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[6.0.11, 6.0.11]"
+            "version": "[6.0.15, 6.0.15]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.19041.27, 10.0.19041.27]"
+            "version": "[10.0.19041.28, 10.0.19041.28]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[6.0.11, 6.0.11]"
+            "version": "[6.0.15, 6.0.15]"
           }
         ],
         "frameworkReferences": {
@@ -47167,7 +47169,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

@@ -7,11 +7,11 @@
 @*HTML*@
 <h3>TodaysList</h3>
 
-@if(goalList == null) {
+@if(todayGoalList == null) {
     <p><em>Loading...</em></p>
 } else {
     <div class="goalContainer">
-        @foreach(Goal goal in goalList) {
+        @foreach(Goal goal in todayGoalList) {
             <div class="goal">
                 <input type="checkbox" checked=@goal.complete id=@goal.id @onchange="eventArgs => { CheckboxClicked(goal, eventArgs.Value); }">
                 <lable for=@goal.name>@goal.name</lable>
@@ -21,31 +21,47 @@
         }
     </div>   
 }
-
-<button @onclick="() => CreateNewGoal()">Create new goal</button>
+<br />
+<button @onclick="() => CreateNewGoal(DateTime.Now)">Create new goal</button>
 
 <br />
 <br />
 
-<button @onclick="() => TestFunc()">Quick test meme</button>
+<h3>TomorrowsList</h3>
+@if(tmrGoalList == null) {
+    <p><em>Loading...</em></p>
+} else {
+    <div class="goalContainer">
+        @foreach(Goal goal in tmrGoalList) {
+            <input type="checkbox" checked=@goal.complete id=@goal.id @onchange="eventArgs => { CheckboxClicked(goal, eventArgs.Value); }">
+            <lable for=@goal.name>@goal.name</lable>
+            <img id="img-trashcan" src="images/trashcan.png" @onclick="() => RemoveSpecificGoal(goal)">
+            <br />
+        }
+    </div>
+}<br />
+<button @onclick="() => CreateNewGoal(DateTime.Now.AddDays(1))">Create new goal</button>
 
 @*CODE*@
 @code {
     public SQLiteDB DB = new SQLiteDB();
-    public List<Goal> goalList = new List<Goal>();
+    public List<Goal> todayGoalList = new List<Goal>();
+    public List<Goal> tmrGoalList = new List<Goal>();
 
     protected override async Task OnInitializedAsync() {
-        goalList = await DB.GetAllGoalsByDate(DateTime.Now);
+        todayGoalList = await DB.GetAllGoalsByDate(DateTime.Now);
+        tmrGoalList = await DB.GetAllGoalsByDate(DateTime.Now.AddDays(1));
 
-        foreach(Goal goal in goalList) {
+        foreach(Goal goal in todayGoalList) {
             Debug.WriteLine("added the goal: " + goal.name);
         }
     }
 
-    public async Task CreateNewGoal() {
+    public async Task CreateNewGoal(DateTime date) {
         string res = await App.Current.MainPage.DisplayPromptAsync("Name your goal!", "Enter the goal you want to fulfill!");
-        Goal goal = new Goal(res, DateTime.Now);
+        Goal goal = new Goal(res, date);
         await DB.Insert<Goal>(goal);
+        await RefreshLists();
 
     }
 
@@ -53,9 +69,11 @@
         if((bool)checkboxState == true) {
             Debug.WriteLine($"{goal.name} was marked as completed!");
             goal.complete = true;
+            goal.dateCompleted = DateTime.Now.ToString("yyyy/MM/dd");
         } else {
             Debug.WriteLine($"{goal.name} was marked as uncompleted!");
             goal.complete = false;
+            goal.dateCompleted = "";
         }
         await DB.Update<Goal>(goal);
 
@@ -65,15 +83,15 @@
         bool res = await App.Current.MainPage.DisplayAlert("Delete goal", "Are you sure you want to delete " + goal.name, "Yes", "No");
         if(res) {
             await DB.Delete<Goal>(goal);
+            await RefreshLists();
         }
     }
 
-    //TEST FUNCTION
+    public async Task RefreshLists() {
+        todayGoalList.Clear();
+        tmrGoalList.Clear();
 
-    public void TestFunc() {
-        DateTime date = DateTime.Now;
-
-        Debug.WriteLine("DateTest: " + date.ToShortDateString());
+        todayGoalList = await DB.GetAllGoalsByDate(DateTime.Now);
+        tmrGoalList = await DB.GetAllGoalsByDate(DateTime.Now.AddDays(1));
     }
-
 }
